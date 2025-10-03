@@ -24,10 +24,10 @@ public class T00 {
         if (a > b) {
             System.out.println("Bilangan pertama lebih besar");
         } else {
-            if (a > b) {
+            if (b > a) {
                 System.out.println("Bilangan kedua lebih besar");
             } else {
-                System.out.println("Bilangan pertama lebih besar");
+                System.out.println("Kedua bilangan sama besar");
             }
         }
         if (a % 2 == 0 && b % 2 == 0) {
