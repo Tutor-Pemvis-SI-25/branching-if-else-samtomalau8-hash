@@ -1,3 +1,5 @@
+//Sakeus Malau - 12S2038//
+//Vita Naibaho - 12S2045//
 import java.util.*;
 import java.lang.Math;
 
@@ -7,9 +9,7 @@ public class T00 {
     public static void main(String[] args) {
         int a, b, c, d;
 
-        System.out.println("Masukkan bilangan pertama");
         a = Integer.parseInt(input.nextLine());
-        System.out.println("Masukkan bilangan kedua");
         b = Integer.parseInt(input.nextLine());
         if (a % 2 == 0) {
             System.out.println("Bilangan pertama: Genap");
@@ -32,11 +32,11 @@ public class T00 {
         }
         if (a % 2 == 0 && b % 2 == 0) {
             c = a + b;
-            System.out.println("Hasil penjumlahan:" + " " + c);
+            System.out.println("Hasil penjumlahan: " + c);
         } else {
             if (b + 1 % 2 == 0 && a + 1 % 2 == 0) {
                 d = a * b;
-                System.out.println("Hasil perkalian:" + " " + d);
+                System.out.println("Hasil perkalian: " + d);
             } else {
                 System.out.println("berbeda jenis");
             }
