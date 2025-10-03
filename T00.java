@@ -34,7 +34,7 @@ public class T00 {
             c = a + b;
             System.out.println("Hasil penjumlahan: " + c);
         } else {
-            if (b + 1 % 2 == 0 && a + 1 % 2 == 0) {
+            if (b % 2 != 0 && a % 2 != 0) {
                 d = a * b;
                 System.out.println("Hasil perkalian: " + d);
             } else {
