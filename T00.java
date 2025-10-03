@@ -21,10 +21,10 @@ public class T00 {
         } else {
             System.out.println("Bilangan kedua: Ganjil");
         }
-        if (a == b) {
-            System.out.println("Kedua bilangan sama besar");
+        if (a > b) {
+            System.out.println("Bilangan pertama lebih besar");
         } else {
-            if (a < b) {
+            if (a > b) {
                 System.out.println("Bilangan kedua lebih besar");
             } else {
                 System.out.println("Bilangan pertama lebih besar");
@@ -38,7 +38,7 @@ public class T00 {
                 d = a * b;
                 System.out.println("Hasil perkalian: " + d);
             } else {
-                System.out.println("berbeda jenis");
+                System.out.println("Berbeda jenis");
             }
         }
     }
